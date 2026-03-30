@@ -15,6 +15,7 @@ M = size(img,1);
 N = size(img,2);
 max = max(img);
 min = min(img);
+
 % Calcula a frequência de cada nível de cinza
 for i = 1:256
     mask = img == i -1; % Ajusta para o índice correto
